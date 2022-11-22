@@ -1,0 +1,15 @@
+.Konyv {
+    text-align: center;
+    border: 1px solid grey;
+    background-color: rgba(175, 175, 213, 0.687);
+    width: 100%;
+    height: 50%;
+  }
+
+h3{
+   
+    color: rgba(35, 35, 149, 0.712);
+}
+h4{
+    color: rgb(108, 113, 145);
+}
