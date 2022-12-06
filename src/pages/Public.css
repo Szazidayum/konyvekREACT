@@ -1,0 +1,14 @@
+
+.konyvek{
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  footer{
+    min-height: 10vh;
+  }
+  
+  @media screen {
+    
+  }

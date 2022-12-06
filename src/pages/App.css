@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #4c4537;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.layoutNav{
+  background-color: rgb(165, 148, 127);
+  height: 5vh;
+}
+.layoutNav ul{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.layoutNav li {
+  list-style: none;
+}
+
+.layoutNav li a{
+  color: white;
+  font-size: 2.5vh;
+}
+.layoutNav li p{
+  color: white;
+  font-size: 2.5vh;
+}
+

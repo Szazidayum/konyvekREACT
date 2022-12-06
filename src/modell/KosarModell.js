@@ -19,6 +19,10 @@ class KosarModell{
         }
     }   
 
+    //törlés
+    torol(){
+        
+    }
     // adatKosarba(adat){
     //     this.#kosar.push(adat);
     // }

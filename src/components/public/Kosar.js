@@ -1,4 +1,9 @@
 function Kosar(props){
+
+    function torol(){
+        console.log("töröl");
+        props.torol(props.konyvAdat)
+    }
     
     return(
         
@@ -8,7 +13,7 @@ function Kosar(props){
                     <td>{props.konyvAdat.ar}</td>
                     <td>{props.konyvAdat.db}</td>
                     <td><button>hozzáad</button></td>
-                    <td><button>törlés</button></td>
+                    <td><button onClick={torol}>törlés</button></td>
                 </tr>
     );
 }
